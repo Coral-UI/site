@@ -23,7 +23,8 @@ h3 {
 }
 
 p {
-  @apply py-1 px-0.5 tracking-wide font-normal leading-relaxed text-neutral-700 my-6 text-pretty;
+  @apply py-1 px-0.5 tracking-wide font-normal leading-relaxed text-neutral-700 mt-6 text-pretty;
+  widows: 4;
 }
 
 p + p {
