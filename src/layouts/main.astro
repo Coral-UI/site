@@ -29,6 +29,12 @@ import '../styles/styles.css';
   <body class="bg-[#F2F2EA]">
     <slot />
     <script>
+      declare global {
+        interface Window {
+          TallyConfig: any;
+        }
+      }
+
       window.TallyConfig = {
         "formId": "3XBBbe",
         "popup": {
