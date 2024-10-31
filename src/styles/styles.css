@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src:
+    url('/PPNeueMontreal-Variable-subset.woff2') format('woff2'),
+    url('/PPNeueMontreal-Variable-subset.woff') format('woff');
+  font-stretch: 75% 125%;
+  font-feature-settings:
+    'ss02' on,
+    'liga' off;
+  font-display: swap;
+}
+
+h1 {
+  @apply text-4xl font-normal py-1 px-0.5 text-neutral-900;
+}
+
+h2 {
+  @apply text-2xl font-medium mt-6 py-1 px-0.5 text-neutral-900;
+}
+
+h3 {
+  @apply text-xl font-medium mt-4 py-1 px-0.5 text-neutral-900;
+}
+
+p {
+  @apply py-1 px-0.5 tracking-wide font-normal leading-relaxed text-neutral-700 my-6 text-pretty;
+}
+
+p + p {
+  @apply mt-0;
+}
+
+p.small {
+  @apply text-sm;
+}
+
+
+
+h2 + * ,
+h3 + * {
+  @apply mt-0;
+}
+
+video {
+  @apply w-full mb-12 mt-4;
+}
+
+ul {
+  @apply list-disc list-inside my-6 space-y-1 pl-4 mb-8 mt-2;
+}
+
+li {
+  @apply tracking-wide font-normal leading-relaxed text-neutral-700;
+}

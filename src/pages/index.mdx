@@ -1,0 +1,74 @@
+---
+layout: '../layouts/main.astro'
+title: 'Coral UI'
+---
+
+import Callout from '../components/callout.astro';
+
+<div className="container mx-auto px-4 max-w-prose">
+<header className="text-center pt-12">
+# 🪸 Coral UI
+</header>
+
+Coral UI is a tool that bridges the gap between design and development by providing a common API to describe interfaces.
+
+In other words, it’s a library that provides transformation from design software to code and back. A process that is often trivialized and overlooked yet is crucial to product success.
+
+## What it is
+
+<video src="/coralexample.mp4" controls />
+
+## Background
+
+As design software has moved closer to bridging the gap between design and developer roles, there is still a human element needed to bring a concept to production. However, some processes, such as the presentational layer, can be automated, leaving more complex logical issues to be resolved.
+
+### Our Solution
+
+Coral UI is a library that facilitates bidirectional conversion between design and code, allowing design to be managed in version control. When a designer modifies a component or variable, the change automatically reflects in codebases. Conversely, changes made in code are mirrored in the design software. This seamless synchronization ensures consistency and efficiency in the development process.
+
+### How it helps
+
+This automation not only speeds up the development process but also ensures consistency between design and implementation. Coral UI aims to be the bridge that facilitates this automation, providing a unified language for both designers and developers.
+
+By doing so, it streamlines the workflow and reduces the potential for miscommunication or discrepancies between design intent and final product.
+
+This library allows teams to deploy UI changes in seconds instead of sprints.
+
+Managing your UI layer through a common file format prevents vendor lock-in. Migrating from one library, framework or software is as easy as syncing your Coral UI files.
+
+## Features
+
+We're currently focused on building out the core functionality and a robust ecosystem of plugins. When we're done, we'll be releasing a plugin for Figma and a CLI tool that will allow you to sync your Coral UI files to your codebases.
+
+### Where we're at:
+
+- HTML to Coral UI Spec File ↔ Coral UI Spec UI to HTML
+- React to Coral UI Spec File ↔ Coral UI Spec File to React
+- Figma to Coral UI Spec File ↔ Coral UI Spec File to Figma
+- Figma Plugin
+- Playground Site for exploration
+
+### Our Plans:
+
+- Svelte to Coral UI Spec File ↔ Coral UI Spec File to Svelte
+- Storybook to Coral UI Spec File ↔ Coral UI Spec File to Storybook
+- Penpot to Coral UI Spec File ↔ Coral UI Spec File to Penpot
+- Web UI
+- Documentation Generation
+- Hosted Platform (We'll help you automate the syncing between your services)
+
+### What it is not
+
+This is not meant to replace any humans. If you choose to use this as a shortcut and throw AI at it, be prepared for an absolutely atrocious UI that reflects your poor taste. Not only are you a turd, but you’re also a loser. People make products. AI makes derivatives. Choose passion.
+
+<Callout>
+<span slot="icon">😇</span>
+
+### Want to help me build this thing faster?
+
+It’s my dream to work on full time on this thing. I’m pretty sure this thing could be a new category. I’m also really good at this internet and design engineering stuff. As well, I ain’t terible about running a business, If you want to support me and my efforts, please email me at [drew@reallygood.work](mailto:drew@reallygood.work).
+</Callout>
+
+<footer class="mt-12"><p class="small">Coral UI is a project from [Really Good Work Inc](https://reallygood.work), a design and technology consultancy focused on helping teams build interfaces and experiences. You can hire us to help you design, build or train your team.</p></footer>
+
+</div>
